@@ -103,7 +103,7 @@ Con `rol` y `nivel` se identifica el tipo de usuario: un profesor tiene `rol = P
 Son diez bloques de trabajo, cada uno en su rama `feature/` y mezclado en `develop` en este orden.
 
 | # | Bloque | Rama | Qué se pide | Evidencia en el README |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | Diseño | `feature/design` | Diagrama ER y diagrama de clases en la carpeta `/uml` | Captura de cada diagrama |
 | 2 | Entidades, modelos y mappers | `feature/entities-models` | Entities con anotaciones JPA y la relación entre ellas; Models con sufijo `Model`; mappers con MapStruct | Código en la rama |
 | 3 | Base de datos | `feature/database` | Tablas generadas por JPA en PostgreSQL y al menos 3 registros en cada una | Captura de cada tabla con sus registros |
