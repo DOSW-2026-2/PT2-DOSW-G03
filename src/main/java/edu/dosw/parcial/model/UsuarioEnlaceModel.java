@@ -11,7 +11,7 @@ import java.util.List;
  *   <li>El estudiante de posgrado no tiene materias inscritas (lista vacía).</li>
  * </ul>
  */
-public record UsuarioEnlaceModel(
+public Class UsuarioEnlaceModel(
         String id,
         String nombre,
         String programa,
